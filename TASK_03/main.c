@@ -52,7 +52,7 @@ int main(void)
 	}
 }
 
-ISR(INT0_vect)
+ISR( INT0_vect)
 {
 	adcValue = ADC_readChannel(0);
 	LCD_clearScreen();
